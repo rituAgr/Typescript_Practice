@@ -7,6 +7,7 @@ class forEach_fn
         })
     }
     public forEach_withArray2(arr: Array<any>){
+        console.log(arr.pop())
         arr.forEach((ele)=>{
             console.log(ele)
         })

@@ -8,6 +8,8 @@ interface IStudent {
     gpa: number
 }
 
-let studentJson: any = theStudent
+let studentJson: IStudent = theStudent
 
 console.log(studentJson)
+console.log(studentJson.name)
+console.log(studentJson.semester)
